@@ -1,0 +1,12 @@
+#! /usr/bin/env bash
+
+set +x
+
+rebuild_darwin() {
+  darwin-rebuild switch --flake ./flake.nix
+}
+
+case $1 in
+  *)
+    rebuild_darwin;;
+esac
