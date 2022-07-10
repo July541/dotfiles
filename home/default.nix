@@ -15,6 +15,8 @@ let
 
     # For cabal update
     curl
+
+    nodejs-16_x
   ];
 
   gitPkgs = with pkgs; [
