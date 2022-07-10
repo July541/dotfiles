@@ -17,6 +17,7 @@ let
     curl
 
     nodejs-16_x
+    jsonnet
   ];
 
   gitPkgs = with pkgs; [
@@ -27,7 +28,6 @@ in
   programs.home-manager.enable = true;
 
   home.stateVersion = "22.11";
-
   home.packages = defaultPkgs ++ gitPkgs;
 
   imports = (import ./programs);
