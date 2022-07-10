@@ -3,7 +3,7 @@
 set +x
 
 rebuild_darwin() {
-  darwin-rebuild switch --flake ./flake.nix
+  darwin-rebuild switch --flake ./
 }
 
 case $1 in
