@@ -24,4 +24,6 @@
   system.stateVersion = 4;
 
   nix.binaryCaches = [ "https://mirror.sjtu.edu.cn/nix-channels/store" ];
+
+  users.users.treee.home = /. + builtins.toPath "/Users/treee";
 }
