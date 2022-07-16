@@ -18,6 +18,7 @@ let
 
     nodejs-16_x
     jsonnet
+    cmake
   ];
 
   gitPkgs = with pkgs; [
