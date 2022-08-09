@@ -13,7 +13,6 @@
       plugins = [
         "git"
         "cabal"
-        "emacs"
         "history"
         "rust"
         "stack"
