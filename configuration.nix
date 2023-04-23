@@ -23,7 +23,7 @@
   # $ darwin-rebuild changelog
   system.stateVersion = 4;
 
-  nix.binaryCaches = [ "https://mirror.sjtu.edu.cn/nix-channels/store" ];
+  nix.settings.substituters = [ "https://mirror.sjtu.edu.cn/nix-channels/store" ];
 
-  users.users.treee.home = /. + builtins.toPath "/Users/treee";
+  users.users.treee.home = /. + builtins.toPath "/Users/treee"; 
 }

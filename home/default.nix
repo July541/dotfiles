@@ -15,11 +15,12 @@ let
 
     # For cabal update
     curl
+    wget
 
-    nodejs-16_x
-    jsonnet
+    nodejs-18_x
     cmake
 
+    python310
     pre-commit
   ];
 
