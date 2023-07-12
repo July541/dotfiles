@@ -15,7 +15,7 @@
         "cabal"
         "history"
         "rust"
-        "stack"
+        # "stack"
       ];
       theme = "robbyrussell";
     };

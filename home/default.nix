@@ -18,10 +18,16 @@ let
     wget
 
     nodejs-18_x
+    yarn
     cmake
 
     python310
     pre-commit
+    pkg-config
+    openssl
+
+    # For Blog
+    pandoc
   ];
 
   gitPkgs = with pkgs; [
