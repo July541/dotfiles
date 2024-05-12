@@ -24,6 +24,7 @@
   system.stateVersion = 4;
 
   nix.settings.substituters = [ "https://mirror.sjtu.edu.cn/nix-channels/store" ];
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   users.users.treee.home = /. + builtins.toPath "/Users/treee"; 
 }
