@@ -2,32 +2,32 @@
 
 let
   defaultPkgs = with pkgs; [
-    emacs
-    tree
-    htop
+    # emacs
+    # tree
+    # htop
 
-    llvm
+    # llvm
 
     # Build ghc
-    automake
-    autoconf
-    xz
+    # automake
+    # autoconf
+    # xz
 
     # For cabal update
-    curl
-    wget
+    # curl
+    # wget
 
-    nodejs-18_x
-    yarn
-    cmake
+    # nodejs-18_x
+    # yarn
+    # cmake
 
-    python310
-    pre-commit
-    pkg-config
-    openssl
+    # python310
+    # pre-commit
+    # pkg-config
+    # openssl
 
     # For Blog
-    pandoc
+    # pandoc
   ];
 
   gitPkgs = with pkgs; [
@@ -37,7 +37,7 @@ in
 {
   programs.home-manager.enable = true;
 
-  home.stateVersion = "22.11";
+  home.stateVersion = "23.05";
   home.packages = defaultPkgs ++ gitPkgs;
 
   imports = (import ./programs);
