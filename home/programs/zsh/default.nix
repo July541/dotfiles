@@ -30,7 +30,6 @@
       source $HOME/.cargo/env
 
       eval "$(/opt/homebrew/bin/brew shellenv)"
-      export PATH=/opt/homebrew/bin/:$PATH
 
       # source ${pkgs.zsh-powerlevel10k}/share/zsh-powerlevel10k/powerlevel10k.zsh-theme
       # source ~/.p10k.zsh
